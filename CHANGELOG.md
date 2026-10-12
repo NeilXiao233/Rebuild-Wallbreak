@@ -1,5 +1,14 @@
 # Changelog / 更新记录
 
+## 1.0.1 — 2026-10-12
+
+- Rename the public project and repository to Rebuild-Wallbreak.
+- Update bilingual documentation and Codex UI metadata.
+- Preserve the `破壁` trigger, legacy Wallbreak alias, and `unity-semantic-restoration` identifier.
+
+- 公开名称及仓库改为 Rebuild-Wallbreak，同步中英文说明与技能元数据。
+- 保留「破壁」触发、旧英文别名及原安装标识，恢复标准不变。
+
 ## 1.0.0 — 2026-10-12
 
 - Publish Wallbreak (破壁计划) with the compatible `unity-semantic-restoration` identifier.

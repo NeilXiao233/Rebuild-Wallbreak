@@ -1,33 +1,33 @@
-# Wallbreak · 破壁计划
+# Rebuild-Wallbreak · 破壁计划
 
 **Evidence-led Unity reconstruction: executable behavior, verified equivalence, readable source.**
 
-A Codex skill for the stage after Unity assets and code evidence have been extracted. Wallbreak restores how scripts, shaders, initialization, and runtime consumers use that information, then validates the agreed behavior, UI, saves, visuals, and timing against the original.
+A Codex skill for the stage after Unity assets and code evidence have been extracted. Rebuild-Wallbreak restores how scripts, shaders, initialization, and runtime consumers use that information, then validates the agreed behavior, UI, saves, visuals, and timing against the original.
 
 **中文：基于原包证据，恢复真正生效的 Unity 行为与画面，交付可读、可维护源码。**
 
-Version: **1.0.0** · License: **MIT** · Skill identifier: `unity-semantic-restoration`
+Version: **1.0.1** · License: **MIT** · Skill identifier: `unity-semantic-restoration`
 
 ## English
 
 ### Install
 
-Clone this repository into the existing technical skill name. The repository's public name is `wallbreak`; the folder and frontmatter identifier remain `unity-semantic-restoration` for compatibility.
+Clone this repository into the existing technical skill name. The repository's public name is `Rebuild-Wallbreak`; the folder and frontmatter identifier remain `unity-semantic-restoration` for compatibility.
 
 ```sh
-git clone https://github.com/NeilXiao233/wallbreak.git "${CODEX_HOME:-$HOME/.codex}/skills/unity-semantic-restoration"
+git clone https://github.com/NeilXiao233/Rebuild-Wallbreak.git "${CODEX_HOME:-$HOME/.codex}/skills/unity-semantic-restoration"
 ```
 
 If that directory already exists, preserve local changes and update the existing installation; do not install a duplicate alias. Restart Codex or start a new chat so it discovers the current skill. The command above is for POSIX shells; on Windows, clone to the corresponding skills directory in your configured Codex home.
 
 ### Invoke
 
-Say **`破壁`**, **`Wallbreak`**, or explicitly invoke **`$unity-semantic-restoration`**. The Chinese trigger matches whenever the user message contains `破壁`; the English name is an explicit invocation alias. A bare trigger in the current recovery project means continue reconstruction. Requests to review, explain, edit the skill, or stop retain that intent; activation does not authorize unrelated actions.
+Say **`破壁`**, **`Rebuild-Wallbreak`**, or explicitly invoke **`$unity-semantic-restoration`**. The legacy name `Wallbreak` remains an invocation alias. The Chinese trigger matches whenever the user message contains `破壁`; the English name is an explicit invocation alias. A bare trigger in the current recovery project means continue reconstruction. Requests to review, explain, edit the skill, or stop retain that intent; activation does not authorize unrelated actions.
 
 Examples:
 
-- `Wallbreak this Unity project. Preserve the original scenes and verify runtime and visual equivalence.`
-- `Review this project's Wallbreak gaps; keep the review read-only.`
+- `Rebuild-Wallbreak this Unity project. Preserve the original scenes and verify runtime and visual equivalence.`
+- `Review this project's Rebuild-Wallbreak gaps; keep the review read-only.`
 
 ### What the skill does
 
@@ -62,7 +62,7 @@ The README provides bilingual usage; the detailed execution references are maint
 
 ### Relationship to Wallfacer
 
-[Wallfacer Reverse](https://github.com/NeilXiao233/wallfacer-reverse) manages evidence continuity and optional handoff state for complex recovery tasks. Wallbreak focuses on executable Unity reconstruction and equivalence. Its release layout follows Wallfacer's skill entrypoint, relative references, UI metadata, bilingual README, versioning, and MIT license. Neither skill requires the other, and Wallbreak does not create a second project state system.
+[Wallfacer Reverse](https://github.com/NeilXiao233/wallfacer-reverse) manages evidence continuity and optional handoff state for complex recovery tasks. Rebuild-Wallbreak focuses on executable Unity reconstruction and equivalence. Its release layout follows Wallfacer's skill entrypoint, relative references, UI metadata, bilingual README, versioning, and MIT license. Neither skill requires the other, and Rebuild-Wallbreak does not create a second project state system.
 
 ## 中文
 
@@ -70,7 +70,7 @@ The README provides bilingual usage; the detailed execution references are maint
 
 按上方命令安装到 `unity-semantic-restoration` 目录；已有安装先保留本地改动，再更新，避免双份同名技能。安装后重启 Codex 或新建会话，确保读取当前版本。
 
-用户消息中出现 **「破壁」** 即触发；也可说 **Wallbreak** 或显式使用 **`$unity-semantic-restoration`**。不用说完整的「执行破壁计划」。
+用户消息中出现 **「破壁」** 即触发；也可说 **Rebuild-Wallbreak** 或显式使用 **`$unity-semantic-restoration`**。不用说完整的「执行破壁计划」；旧英文别名 Wallbreak 也继续兼容。
 
 - `对当前项目破壁，沿用原工程，继续完成原版等价重建。`
 - `审核这个项目的破壁缺口，本轮只读。`
