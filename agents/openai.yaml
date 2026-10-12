@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wallbreak · 破壁计划"
+  short_description: "Evidence-led Unity reconstruction / 破壁：原版等价重建"
+  default_prompt: "Use $unity-semantic-restoration (Wallbreak / 破壁计划) to reconstruct executable Unity behavior from the current project's evidence, verify scoped runtime and visual equivalence, and deliver readable source."
