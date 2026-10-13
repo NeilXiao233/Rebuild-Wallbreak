@@ -6,7 +6,7 @@ A Codex skill for the stage after Unity assets and code evidence have been extra
 
 **中文：基于原包证据，恢复真正生效的 Unity 行为与画面，交付可读、可维护源码。**
 
-Version: **1.0.1** · License: **MIT** · Skill identifier: `unity-semantic-restoration`
+Version: **1.1.0** · License: **MIT** · Skill identifier: `unity-semantic-restoration`
 
 ## English
 
@@ -36,7 +36,9 @@ Examples:
 3. Recover readable C# and shader semantics: branches, receivers, coordinate spaces, callbacks, and lifecycles.
 4. Connect recovered logic to the production consumers and original startup path.
 5. Validate each claim at its proper layer and bind source, build, shipped artifact, and runtime evidence.
-6. Deliver maintainable source, reproducible instructions, scoped receipts, and explicit remaining gaps.
+6. Refactor in small behavior-preserving steps where needed, then deliver maintainable source, reproducible instructions, current scoped receipts, and explicit remaining gaps.
+
+Maintainability acceptance covers understandable core flows, clear change boundaries, compatible Unity bindings, and validation linked to the current version. Splitting partial files alone is not decoupling. Pure-rule extraction and state-machine conversion are chosen for concrete benefits; no framework, file-size target, or wholesale rewrite is required. New gameplay, changed reward rules, extra developer tools, and art redesign remain separate authorized product work and do not count as original-equivalence coverage.
 
 Unpacking, signatures, stub scripts, a successful build, and a playable first level are intermediate results. The goal is evidence-backed equivalence within an agreed scope, not a claim to recover the author's exact variable names, comments, or repository history.
 
@@ -53,6 +55,7 @@ Advertising and payment SDKs follow the current user's scope. When explicitly ex
 - [SKILL.md](SKILL.md): activation, execution, and acceptance rules (Chinese).
 - [Stages and acceptance](references/stages-and-acceptance.md): inputs, milestones, scoped completion.
 - [Code semantics](references/code-semantics.md): evidence, contracts, adapters, readable implementation.
+- [Behavior-preserving refactoring](references/maintainability-and-refactoring.md): scope, small steps, compatibility, maintainability acceptance.
 - [Rendering and layout](references/render-and-layout.md): shaders, runtime graph, matched comparisons.
 - [Verification and handoff](references/verification-and-handoff.md): proof boundaries, versions, regression, delivery.
 - [Case patterns](references/case-lessons.md): anonymized lessons in Chinese and English.
@@ -82,6 +85,8 @@ The README provides bilingual usage; the detailed execution references are maint
 **工程图与依赖绑定 → 可执行语义重建 → 正式消费者接入 → 运行与视觉差分验证 → 可维护源码交付。**
 
 保留原场景、Prefab、GUID、材质与配置；按原证据恢复真正执行的分支、字段接收者、坐标空间、回调与生命周期。验证从原启动链进入的玩法、UI、存档、视觉和时序，并关联当前源码、构建、实际包与运行回执。
+
+**语义保持重构**贯穿重建，交付前检查核心流程可读、修改边界清楚、Unity 绑定兼容、验证对应当前版本。partial 拆分不单独证明解耦；规则抽取与状态机转换按具体收益选择，不要求统一框架、文件行数或全面重写。新玩法、奖励规则改变、额外开发工具和美术重做属于另行授权的产品工作，不计入原版等价覆盖。详见 [重构与可维护性验收](references/maintainability-and-refactoring.md)。
 
 解包完成、方法签名齐全、能够编译或首关可玩都只是中间成果。完成标准是约定范围内的有效实现、与实际产物匹配的等价证据及可读源码；未知分支明确保留，不以方法数量或构建次数代表完成率。
 

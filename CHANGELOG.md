@@ -1,5 +1,16 @@
 # Changelog / 更新记录
 
+## 1.1.0 — 2026-10-13
+
+- Add behavior-preserving refactoring guidance and concrete maintainability acceptance.
+- Cover Unity binding compatibility, lifecycle preservation, current regression evidence, and bounded completion.
+- Separate optional structural improvements and authorized product extensions from original-equivalence coverage; require no fixed architecture or project-specific tooling.
+- Update the entrypoint, stage definitions, handoff checks, and bilingual README.
+
+- 纳入语义保持重构及可维护性验收，补齐绑定兼容、生命周期、当前回归证据和结束条件。
+- 区分按需结构优化与授权产品扩展，不计入原版等价覆盖，不强制框架或项目专用工具。
+- 同步技能入口、阶段定义、交付检查及中英文说明。
+
 ## 1.0.1 — 2026-10-12
 
 - Rename the public project and repository to Rebuild-Wallbreak.
